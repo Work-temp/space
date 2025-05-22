@@ -106,13 +106,13 @@ const Navbar: React.FC = () => {
                 {link.name}
               </NavLink>
             ))}
-            <NavLink
+            {/* <NavLink
               to="/contact"
               className="btn btn-primary"
               onClick={() => setIsOpen(false)}
             >
               Get Started
-            </NavLink>
+            </NavLink> */}
           </div>
         </motion.div>
       )}
