@@ -6,52 +6,52 @@ import TeamMember from '../components/TeamMember';
 
 const About: React.FC = () => {
   useEffect(() => {
-    document.title = 'About Us - SPADE Solutions';
+    document.title = 'About Us - SPADECODE Solutions';
   }, []);
 
   // Team members data
-  const teamMembers = [
-    {
-      name: 'Dr. Rajesh Kumar',
-      role: 'Founder & CEO',
-      bio: 'PhD in AI with 15+ years of experience in AI research and development. Former lead at a major tech company.',
-      imageSrc: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-      },
-    },
-    {
-      name: 'Priya Sharma',
-      role: 'Head of AI Research',
-      bio: 'Specialist in machine learning algorithms with experience in developing cutting-edge AI solutions.',
-      imageSrc: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      social: {
-        linkedin: '#',
-        github: '#',
-      },
-    },
-    {
-      name: 'Arun Patel',
-      role: 'Director of Education',
-      bio: 'Education expert with a passion for making AI accessible and developing effective learning programs.',
-      imageSrc: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-      },
-    },
-    {
-      name: 'Meera Desai',
-      role: 'AI Solutions Architect',
-      bio: 'Talented engineer specializing in designing custom AI solutions for complex business problems.',
-      imageSrc: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      social: {
-        linkedin: '#',
-        github: '#',
-      },
-    },
-  ];
+  // const teamMembers = [
+  //   {
+  //     name: 'Dr. Rajesh Kumar',
+  //     role: 'Founder & CEO',
+  //     bio: 'PhD in AI with 15+ years of experience in AI research and development. Former lead at a major tech company.',
+  //     imageSrc: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  //     social: {
+  //       linkedin: '#',
+  //       twitter: '#',
+  //     },
+  //   },
+  //   {
+  //     name: 'Priya Sharma',
+  //     role: 'Head of AI Research',
+  //     bio: 'Specialist in machine learning algorithms with experience in developing cutting-edge AI solutions.',
+  //     imageSrc: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  //     social: {
+  //       linkedin: '#',
+  //       github: '#',
+  //     },
+  //   },
+  //   {
+  //     name: 'Arun Patel',
+  //     role: 'Director of Education',
+  //     bio: 'Education expert with a passion for making AI accessible and developing effective learning programs.',
+  //     imageSrc: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  //     social: {
+  //       linkedin: '#',
+  //       twitter: '#',
+  //     },
+  //   },
+  //   {
+  //     name: 'Meera Desai',
+  //     role: 'AI Solutions Architect',
+  //     bio: 'Talented engineer specializing in designing custom AI solutions for complex business problems.',
+  //     imageSrc: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  //     social: {
+  //       linkedin: '#',
+  //       github: '#',
+  //     },
+  //   },
+  // ];
 
   return (
     <div>
@@ -66,7 +66,7 @@ const About: React.FC = () => {
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-5xl font-bold mb-6"
             >
-              About SPADE Solutions
+              About SPADECODE Solutions
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -87,7 +87,7 @@ const About: React.FC = () => {
             <div>
               <SectionHeading
                 title="Our Story"
-                subtitle="SPADE Solutions was founded in 2020 with a clear vision: to bridge the gap between AI innovation and practical application."
+                subtitle="SPADECODE Solutions was founded in 2020 with a clear vision: to bridge the gap between AI innovation and practical application."
               />
 
               <motion.div
@@ -100,7 +100,7 @@ const About: React.FC = () => {
                   Our journey began when a team of AI researchers and educators recognized a significant challenge: while AI technology was advancing rapidly, there was a growing gap between these innovations and their practical implementation in businesses and careers.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  We set out to create a company that not only develops cutting-edge AI solutions but also helps individuals navigate the evolving landscape of AI careers through education and guidance. Today, SPADE Solutions stands at the intersection of technology and education, providing comprehensive services that enable both businesses and individuals to thrive in the AI-driven future.
+                  We set out to create a company that not only develops cutting-edge AI solutions but also helps individuals navigate the evolving landscape of AI careers through education and guidance. Today, SPADECODE Solutions stands at the intersection of technology and education, providing comprehensive services that enable both businesses and individuals to thrive in the AI-driven future.
                 </p>
                 <p className="text-gray-600">
                   Based in Hyderabad's thriving tech hub, we continue to grow our team of experts who share our passion for making AI accessible and impactful for everyone.
@@ -116,7 +116,7 @@ const About: React.FC = () => {
             >
               <img
                 src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="SPADE Solutions Story"
+                alt="SPADECODE Solutions Story"
                 className="rounded-lg shadow-custom"
               />
             </motion.div>
@@ -129,7 +129,7 @@ const About: React.FC = () => {
         <div className="container-custom">
           <SectionHeading
             title="Our Values"
-            subtitle="These core principles guide everything we do at SPADE Solutions."
+            subtitle="These core principles guide everything we do at SPADECODE Solutions."
             center
           />
 
@@ -210,7 +210,7 @@ const About: React.FC = () => {
             center
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"> */}
             {teamMembers.map((member, index) => (
               <TeamMember
                 key={member.name}
@@ -223,7 +223,7 @@ const About: React.FC = () => {
               />
             ))}
           </div>
-        </div>
+        {/* </div> */}
       </section>
 
       {/* Stats Section */}
@@ -270,7 +270,7 @@ const About: React.FC = () => {
               viewport={{ once: true }}
               className="text-center"
             >
-              <div className="text-4xl md:text-5xl font-bold mb-2">30+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">10+</div>
               <p className="text-xl text-white/80">Business Clients</p>
             </motion.div>
           </div>
