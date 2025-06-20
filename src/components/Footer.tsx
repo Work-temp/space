@@ -7,16 +7,12 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
+          {}
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <BrainCircuit size={28} className="text-primary-light" />
-              <span className="font-bold text-xl">SPADE Solutions</span>
+              <span className="font-bold text-xl">SPADECODE INTELLIGENCE PRIVATE LIMITED</span>
             </div>
-            <p className="text-gray-300 mb-4">
-              Innovative AI solutions for businesses and individuals. 
-              Empowering through technology and education.
-            </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-primary-light transition-colors">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
